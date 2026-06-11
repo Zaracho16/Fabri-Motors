@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fabri Motors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container header-flex">
+    <a href="#" class="logo-container">
+      <img src="img/logo.png" alt="FabriMotors-logo" class="logo-img">
+      <span class="logo-texto">Fabri <span class="destacado">Motors</span></span>
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Encontrá tu próximo vehículo</h1>
+    <p>Calidad, confianza y los mejores precios del mercado.</p>
+  </div>
+</section>
+
+<main class="container catalogo">
+  <h2>Vehículos Destacados</h2>
+  <div id="autos" class="grid"></div>
+</main>
+
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-content">
+    <button id="cerrar" aria-label="Cerrar modal">&times;</button>
+    <div class="modal-body">
+      <div class="galeria">
+        <img id="principal" src="" alt="Imagen principal del vehículo">
+        <div id="miniaturas"></div>
+      </div>
+      <div class="info-detalle">
+        <h2 id="titulo"></h2>
+        <p id="precio" class="precio-destacado"></p>
+        <a id="btn-whatsapp" href="#" target="_blank" class="btn-contacto">
+          Preguntar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h3>Fabri Motors</h3>
+      <p>Tu próximo destino sobre ruedas. Nos dedicamos a la compra y venta de vehículos seleccionados con la mejor financiación del mercado.</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Horarios de Atención</h3>
+      <ul>
+        <li><strong>Lunes a Viernes:</strong> 09:00 a 19:00 hs</li>
+        <li><strong>Sábados:</strong> 09:00 a 13:00 hs</li>
+        <li>Domingos y Feriados: Cerrado</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <p>aaaaa</p>
+      <p>Tel: 555555555</p>
+      
+      <div class="redes-sociales">
+        <a href="#" target="_blank" aria-label="Instagram">Instagram</a>
+        <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2026 Fabri Motors. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
