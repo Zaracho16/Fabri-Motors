@@ -45,7 +45,7 @@ const autos = [
 
 ];
 
-const TELEFONO_WHATSAPP = "+595 983 859315"; 
+const TELEFONO_WHATSAPP = "+595983859315"; // Dejar sin espacio porque si le das espacio deja de funcionar jajasks
 const cont = document.getElementById('autos');
 const modal = document.getElementById('modal');
 
