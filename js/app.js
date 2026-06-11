@@ -1,19 +1,55 @@
 
 const autos = [
-  { nombre: 'Vitz Rs 2001', precio: 'GS 0', imagenes: ['img/vitzrs/vitz1.jpeg', 'img/vitzrs/vitz2.jpeg', 'img/vitzrs/vitz3.jpeg', 'img/vitzrs/vitz4.jpeg', 'img/vitzrs/vitz5.png', 'img/vitzrs/vitz6.jpeg', 'img/vitzrs/vitz7.jpeg', 'img/vitzrs/vitz8.jpeg', 'img/vitzrs/vitz9.jpeg', 'img/vitzrs/vitz10.jpeg'] },
-  { nombre: 'Honda Civic', precio: 'USD 14.500', imagenes: ['https://picsum.photos/800/500?4', 'https://picsum.photos/800/500?5', 'https://picsum.photos/800/500?6'] },
-  { nombre: 'Volkswagen Golf', precio: 'USD 17.000', imagenes: ['https://picsum.photos/800/500?7', 'https://picsum.photos/800/500?8', 'https://picsum.photos/800/500?9'] },
-  { nombre: 'Hyundai Tucson', precio: 'USD 22.000', imagenes: ['https://picsum.photos/800/500?10', 'https://picsum.photos/800/500?11', 'https://picsum.photos/800/500?12'] },
-  { nombre: 'Kia Sportage', precio: 'USD 19.000', imagenes: ['https://picsum.photos/800/500?13', 'https://picsum.photos/800/500?14', 'https://picsum.photos/800/500?15'] },
-  { nombre: 'Chevrolet Cruze', precio: 'USD 16.000', imagenes: ['https://picsum.photos/800/500?16', 'https://picsum.photos/800/500?17', 'https://picsum.photos/800/500?18'] }
+  { nombre: 'Vitz Rs 2001', 
+    precio: 'GS 0', imagenes: ['img/vitzrs/vitz1.jpeg', 'img/vitzrs/vitz2.jpeg', 'img/vitzrs/vitz3.jpeg', 'img/vitzrs/vitz4.jpeg', 'img/vitzrs/vitz5.png', 'img/vitzrs/vitz6.jpeg', 'img/vitzrs/vitz7.jpeg', 'img/vitzrs/vitz8.jpeg', 'img/vitzrs/vitz9.jpeg', 'img/vitzrs/vitz10.jpeg'],
+    descripcion: 'Excelente estado, aire congela.',
+    detalles: { ano: '2001', km: '0 km', motor: '1.5', caja: 'Mecánica'}
+  },
+
+  { nombre: 'Kia Sportage', 
+    precio: 'GS 0', 
+    imagenes: ['img/kiasport/ks1.png', 'img/kiasport/ks2.jpeg', 'img/kiasport/ks3.jpeg','img/kiasport/ks4.jpeg', 'img/kiasport/ks5.jpeg', 'img/kiasport/ks6.jpeg', 'img/kiasport/ks7.jpeg', 'img/kiasport/ks8.jpeg', 'img/kiasport/ks9.jpeg', 'img/kiasport/ks10.jpeg', 'img/kiasport/ks10.jpeg'],
+    descripcion: 'Tren delantero y trasero sin ruidos. Interior negro cuero. Título CV Todo en orden',
+    detalles: { ano: '2007', km: '0 km', motor: '2.0cc', caja: 'Automática'}
+  },
+
+
+  { nombre: 'Toyota Voxy', 
+    precio: 'GS 0', 
+    imagenes: ['img/toyotavoxy/tv1.jpeg', 'img/toyotavoxy/tv2.jpeg', 'img/toyotavoxy/tv3.jpeg', 'img/toyotavoxy/tv4.jpeg', 'img/toyotavoxy/tv5.jpeg', 'img/toyotavoxy/tv6.jpeg', 'img/toyotavoxy/tv7.jpeg', 'img/toyotavoxy/tv8.jpeg', 'img/toyotavoxy/tv9.jpeg'],
+    descripcion: 'Título y cédula verte en mano. OFERTA-COVERSABLE CONTADO',
+    detalles: { ano: '2002', km: '0 km', motor: '2.0', caja: 'Automática'}
+  },
+
+  { nombre: 'Toyota Clavia', 
+    precio: 'GS 23.000.000', 
+    imagenes: ['img/toyotaclavia/tc1.jpeg', 'img/toyotaclavia/tc2.jpeg', 'img/toyotaclavia/tc3.jpeg', 'img/toyotaclavia/tc4.jpeg', 'img/toyotaclavia/tc5.jpeg', 'img/toyotaclavia/tc6.jpeg', 'img/toyotaclavia/tc7.jpeg', 'img/toyotaclavia/tc8.jpeg', 'img/toyotaclavia/tc9.jpeg', 'img/toyotaclavia/tc10.jpeg'],
+    descripcion: 'Radio con Bluetooth. Motor y tren delantero sin detalles. Cubiertas en perfectas condiciones',
+    detalles: { ano: '2002', km: '0 km', motor: '1.3', caja: 'Automática'}
+  },
+
+  { nombre: 'Mitsubishi Tritón GLS', 
+    precio: 'GS 0', 
+    imagenes: ['img/mitt/mt1.jpeg', 'img/mitt/mt2.jpeg', 'img/mitt/mt3.jpeg', 'img/mitt/mt4.jpeg', 'img/mitt/mt5.jpeg', 'img/mitt/mt6.jpeg', 'img/mitt/mt7.jpeg', 'img/mitt/mt8.jpeg', 'img/mitt/mt9.jpeg', 'img/mitt/mt10.jpeg'],
+    descripcion: 'Radio con Bluetooth. Motor y tren delantero sin detalles. Cubiertas en perfectas condiciones',
+    detalles: { ano: '2002', km: '0 km', motor: '1.3', caja: 'Automática'}
+  },
+
+  { nombre: 'Toyota Runx', 
+    precio: 'GS 36.000.000', 
+    imagenes: ['img/trunx/tr1.jpeg', 'img/trunx/tr2.jpeg', 'img/trunx/tr3.jpeg', 'img/trunx/tr4.jpeg', 'img/trunx/tr5.jpeg', 'img/trunx/tr6.jpeg', 'img/trunx/tr7.jpeg', 'img/trunx/tr8.jpeg', 'img/trunx/tr9.jpeg', 'img/trunx/tr10.jpeg', 'img/trunx/tr11.jpeg'],
+    descripcion: '4x2. Chaperia y pintura sin detalles. Llantas deportivas. Batería nueva. Radio con Bluetooth. Aire acondicionado andando',
+    detalles: { ano: '2003', km: '0 km', motor: '1.5cc', caja: 'Automática'}
+  },
+
+
 ];
 
-const TELEFONO_WHATSAPP = "5491112345678"; 
-
+const TELEFONO_WHATSAPP = "+595 983 859315"; 
 const cont = document.getElementById('autos');
 const modal = document.getElementById('modal');
 
-// Renderizar catálogo
+// Renderizar catálogo inicial
 autos.forEach(auto => {
   const card = document.createElement('div');
   card.className = 'card';
@@ -32,6 +68,17 @@ function abrir(auto) {
   document.getElementById('titulo').textContent = auto.nombre;
   document.getElementById('precio').textContent = auto.precio;
   
+  // Inyectar descripción e info técnica (NUEVO)
+  document.getElementById('descripcion').textContent = auto.descripcion || 'Sin descripción disponible.';
+  
+  // Si el auto tiene detalles, los cargamos en las etiquetas correspondientes
+  if(auto.detalles) {
+    document.getElementById('det-ano').textContent = auto.detalles.ano;
+    document.getElementById('det-km').textContent = auto.detalles.km;
+    document.getElementById('det-motor').textContent = auto.detalles.motor;
+    document.getElementById('det-caja').textContent = auto.detalles.caja;
+  }
+
   const imgPrincipal = document.getElementById('principal');
   imgPrincipal.src = auto.imagenes[0];
   imgPrincipal.alt = `Foto de ${auto.nombre}`;
@@ -46,7 +93,6 @@ function abrir(auto) {
     const i = document.createElement('img');
     i.src = img;
     i.alt = `Miniatura ${index + 1} de ${auto.nombre}`;
-    
     if(index === 0) i.className = 'active';
 
     i.onclick = () => {
@@ -61,7 +107,6 @@ function abrir(auto) {
   modal.setAttribute('aria-hidden', 'false');
 }
 
-// Cerrar Modal
 const cerrarModal = () => {
   modal.style.display = 'none';
   modal.setAttribute('aria-hidden', 'true');
