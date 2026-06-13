@@ -30,7 +30,7 @@ const autos = [
 
   { nombre: 'Mitsubishi Tritón GLS', 
     precio: 'GS 0', 
-    imagenes: ['img/mitt/mt1.jpeg', 'img/mitt/mt2.jpeg', 'img/mitt/mt3.jpeg', 'img/mitt/mt4.jpeg', 'img/mitt/mt5.jpeg', 'img/mitt/mt6.jpeg', 'img/mitt/mt7.jpeg', 'img/mitt/mt8.jpeg', 'img/mitt/mt9.jpeg', 'img/mitt/mt10.jpeg'],
+    imagenes: ['img/mitt/mt1.jpeg', 'img/mitt/mt2.jpeg', 'img/mitt/mt3.jpeg', 'img/mitt/mt4.jpeg', 'img/mitt/mt5.jpeg', 'img/mitt/mt6.jpeg', 'img/mitt/mt7.jpeg'],
     descripcion: 'Radio con Bluetooth. Motor y tren delantero sin detalles. Cubiertas en perfectas condiciones',
     detalles: { ano: '2002', km: '0 km', motor: '1.3', caja: 'Automática'}
   },
