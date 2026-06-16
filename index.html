@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fabri Motors</title>
   <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,14 +15,30 @@
     <div class="logo-container">
       <img src="img/logo.png" alt="FabriMotors-logo" class="logo-img">
       <span class="logo-texto">Fabri <span class="destacado">Motors</span></span>
+    </div> <nav>
+      <ul class="menu-principal">
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Vehiculos">Vehículos</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+      </ul>
+    </nav> <div class="contenedor-general-botonMenu">
+      <div class="contenedor-botonMenu">
+        <button class="menu-boton-clase" id="menu-btn" aria-label="Abrir menú">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="menu-desplegable" id="menu-desplegable">
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Vehiculos">Vehículos</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>
 
 <section class="hero">
-  <div class="container">
-    <h1>Encontrá tu próximo vehículo</h1>
-    <p>Calidad, confianza y los mejores precios del mercado.</p>
-  </div>
+    <img src="img/imagenPortada.png" alt="imagenDePortada" class="imagenPortada">
 </section>
 
 <main class="container catalogo">
@@ -32,27 +49,26 @@
 <div id="modal" class="modal" aria-hidden="true">
   <div class="modal-content">
     <button id="cerrar" aria-label="Cerrar modal">&times;</button>
+    
     <div class="modal-body">
       <div class="galeria">
         <img id="principal" src="" alt="Imagen principal del vehículo">
         <div id="miniaturas"></div>
       </div>
+      
       <div class="info-detalle">
-        <h2 id="titulo"></h2>
-        <p id="precio" class="precio-destacado"></p>
-        <div class="info-detalle">
-          <h2 id="titulo"></h2>
-          <p id="precio" class="precio-destacado"></p>
+        <h2 id="titulo">-</h2>
+        <p id="precio" class="precio-destacado">-</p>
   
-          <div class="ficha-tecnica">
-            <div class="item-ficha"><span>Año:</span> <strong id="det-ano">-</strong></div>
-            <div class="item-ficha"><span>Kms:</span> <strong id="det-km">-</strong></div>
-            <div class="item-ficha"><span>Motor:</span> <strong id="det-motor">-</strong></div>
-            <div class="item-ficha"><span>Caja:</span> <strong id="det-caja">-</strong></div>
-          </div>
+        <div class="ficha-tecnica">
+          <div class="item-ficha"><span>Año:</span> <strong id="det-ano">-</strong></div>
+          <div class="item-ficha"><span>Kms:</span> <strong id="det-km">-</strong></div>
+          <div class="item-ficha"><span>Motor:</span> <strong id="det-motor">-</strong></div>
+          <div class="item-ficha"><span>Caja:</span> <strong id="det-caja">-</strong></div>
+        </div>
 
-          <p id="descripcion" class="texto-descripcion"></p>
-        </div>               
+        <p id="descripcion" class="texto-descripcion"></p>
+               
         <a id="btn-whatsapp" href="#" target="_blank" class="btn-contacto">
           Preguntar por WhatsApp
         </a>
@@ -71,9 +87,7 @@
     <div class="footer-col">
       <h3>Horarios de Atención</h3>
       <ul>
-        <li><strong>Lunes a Viernes:</strong> 09:00 a 19:00 hs</li>
-        <li><strong>Sábados:</strong> 09:00 a 13:00 hs</li>
-        <li>Domingos y Feriados: Cerrado</li>
+        <li><strong>Lunes a Domingos:</strong> 24 hs</li>
       </ul>
     </div>
 
