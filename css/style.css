@@ -166,7 +166,7 @@ header {
 
 .imagenPortada {
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   object-fit: cover;
   object-position: center;
 }
@@ -183,9 +183,17 @@ header {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 515px) {
+
   .imagenPortada {
-    height: 300px;
+    display: none;
+  }
+
+  .hero {
+      background-image: url('../img/imgPortada-celular.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
   }
 }
 
