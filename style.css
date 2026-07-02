@@ -1,5 +1,4 @@
 
-/* 1. CONFIGURACIÓN GLOBAL */
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +24,7 @@ body, html {
   padding: 0 20px;
 }
 
-/* 2. ESTRUCTURA GENERAL */
+/* ESTRUCTURA GENERAL */
 header {
   background: #0f172a;
   color: #fff;
@@ -200,7 +199,7 @@ header {
   gap: 30px;
 }
 
-/* 3. COMPONENTE: TARJETAS */
+/* TARJETAS */
 .card {
   background: #fff;
   border-radius: 12px;
@@ -217,7 +216,7 @@ header {
 
 .card img {
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
 }
 
@@ -237,7 +236,7 @@ header {
   color: #2563eb;
 }
 
-/* 4. MODAL Y GALERIA */
+/* MODAL Y GALERIA */
 .modal {
   display: none;
   position: fixed;
@@ -291,7 +290,7 @@ header {
 
 #principal {
   width: 100%;
-  height: 350px;
+  height: 398px;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -355,7 +354,7 @@ header {
   background: #128c7e;
 }
 
-/* 5. COMPONENTE: FOOTER */
+/* FOOTER */
 footer {
   background: #0f172a; 
   color: #94a3b8; 
@@ -420,28 +419,55 @@ footer {
   border-top: 1px solid #1e293b;
 }
 
-/* NUEVO: ESTILOS PARA LA INFORMACIÓN DEL AUTO EN MODAL */
+/* ESTILO PARA EL BTN DE WHATSAPP FLOTANTE*/
+.whatsapp-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 60px;
+    height: 60px;
+    
+    color: white;
+    
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    text-decoration: none;
+    
+    transition: transform 0.3s;
+}
+
+.whatsapp-btn:hover{
+    transform: scale(1.1);
+}
+
+/* ESTILOS PARA LA INFORMACIÓN DEL AUTO EN MODAL */
 
 .ficha-tecnica {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Divide el espacio en dos columnas de igual tamaño */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 12px;
   margin-bottom: 20px;
 }
 
 .item-ficha {
-  background: #f1f5f9; /* Gris ultra claro */
+  background: #f1f5f9; 
   padding: 10px 14px;
   border-radius: 8px;
   display: flex;
-  flex-direction: column; /* Pone el título arriba y el dato abajo */
+  flex-direction: column;
   gap: 2px;
 }
 
 .item-ficha span {
   font-size: 0.75rem;
   text-transform: uppercase;
-  color: #64748b; /* Gris intermedio */
+  color: #64748b; 
   letter-spacing: 0.5px;
 }
 
