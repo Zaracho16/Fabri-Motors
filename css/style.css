@@ -13,9 +13,10 @@ img {
   display: block;
 }
 
-body {
+body, html {
   background: #f8fafc;
   color: #1e293b;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -63,7 +64,7 @@ header {
   position: absolute;
   background-color: #1f1f1f;
   padding: 10px;
-  left: 0;
+  right: 0;
   list-style: none;
   border-radius: 20px;
   transform: translateX(-100%);
@@ -100,7 +101,7 @@ header {
 }
 
 .menu-desplegable li a:hover {
-  color: #5738ad;
+  color: #3b82f6;
   font-weight: bold;
 }
 
@@ -160,41 +161,22 @@ header {
 
 .hero {
   position: relative;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 95vh;
 }
 
 .imagenPortada {
   width: 100%;
-  height: 95vh;
-  object-fit: cover;
-  object-position: center;
+  height: 96vh;
 }
 
-@media (max-width: 1115px) {
-  .imagenPortada {
-    height: 80vh;
-  }
-}
-
-@media (max-width: 887px) {
-  .imagenPortada {
-    height: 50vh;
-  }
-}
-
-@media (max-width: 515px) {
+@media (max-width: 920px) {
 
   .imagenPortada {
-    display: none;
+    width: 100%;
+    height: auto;
   }
 
-  .hero {
-      background-image: url('../img/imgPortada-celular.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 400px;
-  }
 }
 
 .img-port-1 {
